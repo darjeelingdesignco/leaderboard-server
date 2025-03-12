@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    {
+      "source": "/submit-score",
+      "destination": "/api/submit-score.js"
+    }
+  ],
+  "functions": {
+    "api/**/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  }
+}
